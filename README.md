@@ -18,6 +18,11 @@ if (arr.includes(tag)) {
 
 ```
 
+This package is designed for your existing valid code to remain valid after installing.
+
+Please see [test](test/test.ts) for more details.
+Type annotation is also designed to consider `else` clause. Because of that, the type inffered is little tricky. But Don't worry, that can be used intuively.
+
 ## Installation
 
 ```bash
