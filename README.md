@@ -1,17 +1,17 @@
 # Type Array#includes more
 
-NOTICE: WIP
+Cool overrideing Array#include 
 
 ```typescript
-declare const tag: string;
+const tag: string = getTag();
 const arr = ["a", "div"] as const
-if (arr.includes(tag)) { // :thinking_face: Error by default
+if (arr.includes(tag)) { // 😒 Error: Argument of type 'string' is not...
   tag;
 }
 
 // After installing this....
-if (arr.includes(tag)) { // 
-  tag; // :: string , and also "a" | "div"
+if (arr.includes(tag)) {
+  tag; // 😁 string , and also known as "a" | "div"
 }
 
 ```
@@ -24,15 +24,17 @@ npm i -D type-array-includes-more
 
 ## Usage
 
+Update your `tsconfig.json` like below.
+
 ```diff
  {
    "compilerOptions": {
      "strict": true,
      "lib": ["es2019"],
-     "typeRoots": [
++    "typeRoots": [
 +       "node_modules/@types",
 +       "node_modules/type-array-includes-more"
-     ]
++    ]
    }
  }
 ```
