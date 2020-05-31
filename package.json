@@ -1,6 +1,6 @@
 {
   "name": "type-array-includes-more",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "types/index.d.js",
   "scripts": {
     "test": "tsc --project tsconfig.json --noEmit",
