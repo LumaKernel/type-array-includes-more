@@ -1,5 +1,7 @@
 # Type Array#includes more
 
+[![GitHub Actions CI](https://github.com/LumaKernel/type-array-includes-more/workflows/GitHub%20Actions%20CI/badge.svg)](https://github.com/LumaKernel/type-array-includes-more/actions?query=workflow%3A%22GitHub+Actions+CI%22)
+
 Cool overrideing Array#include 
 
 ```typescript
